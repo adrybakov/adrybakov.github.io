@@ -24,3 +24,9 @@ blog posts, news, project pages is licensed under the
 `Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_ license. 
 The license is available in the LICENSE file.
+
+Exceptions
+----------
+pdf files of the publications and/or supporting information located in ``/assets/pdf/`` and 
+displayed at the `adrybakov.com/publications/`_ are subjected to the licenses as 
+specified by the corresponding publishers.
