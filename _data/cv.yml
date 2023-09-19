@@ -26,13 +26,13 @@
       year: 2019-2021
       description:
         - with honors.
-        - Supervisor: Prof. Andrew Palii
+        - "Supervisor: Prof. Andrew Palii"
     - title: BSc in Applied Mathematics and Physics
       institution: Moscow Institute of Physics and Technology. Dolgoprudny, Russia
       year: 2015-2019
       description:
         - with honors.
-        - Supervisor: Prof. Andrew Palii
+        - "Supervisor: Prof. Andrew Palii"
 - title: Open Source Projects
   type: time_table
   contents:
@@ -57,17 +57,17 @@
     - title: MATSUS23 & Sustainable Technology Forum València (STECH23) 
       year: 2021
       description:
-        - title: "Modelling the dynamics of spin waves in 2D limit"
+        - "Modelling the dynamics of spin waves in 2D limit"
         - Valencia, Spain
     - title: 63 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
       year: 2020
       description:
-        - Double Exchange Clusters as a New Class of Cells for Quantum Cellular Automata with Additional Functions
+        - "Double Exchange Clusters as a New Class of Cells for Quantum Cellular Automata with Additional Functions"
         - Dolgoprudny, Russia
     - title: 62 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
       year: 2019
       description:
-        - Comparison of Theoretical Models of Cells for Molecular Quantum Cellular Automata Based on Mixed Valence Molecules
+        - "Comparison of Theoretical Models of Cells for Molecular Quantum Cellular Automata Based on Mixed Valence Molecules"
         - Dolgoprudny, Russia
 - title: Poster presentations
   type: time_table
