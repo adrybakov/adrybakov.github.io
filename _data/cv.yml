@@ -3,6 +3,14 @@
   contents:
     - name: Full Name
       value: Andrey Rybakov
+    -name: e-mail
+      value: anry@uv.es
+    - name: ORCID
+      value: 0000-0002-9924-3576
+    -name: Scopus Author ID
+      value: 57210452927
+    -name: ResearcherID
+      value: W-6960-2019
     - name: Date of Birth
       value: 30th October 1997
     - name: Languages
@@ -90,8 +98,3 @@
       items:
         - Description 1.
         - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
