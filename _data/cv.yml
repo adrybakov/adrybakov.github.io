@@ -48,7 +48,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://rad-tools.org">RAD-tools</a>
+    - title: RAD-tools
       year: 2022-now
       description: Python package for spin Hamiltonian and magnons
       linkitems:
@@ -64,7 +64,7 @@
   type: time_table
   contents:
     - title: GRISOLIA pre-doctoral fellowship
-      year: 2021-present
+      year: 2021-now
       location: Spain
       items: 
         - Valencian Regional Government
@@ -83,53 +83,44 @@
   type: time_table
   contents:
     - title: MATSUS23 & Sustainable Technology Forum València (STECH23) 
-      year: 2023
+      year: 6-10 March 2023
       location: Valencia, Spain
       description:
         - "Modelling the dynamics of spin waves in 2D limit"
-        - 6-10 March
     - title: 63 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
-      year: 2020
+      year: 23-29 November 2020
       location: Dolgoprudny, Russia
       description:
         - "Double Exchange Clusters as a New Class of Cells for Quantum Cellular Automata with Additional Functions"
-        - 23-29 November
     - title: 62 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
-      year: 2019
+      year: 18-24 November 2019
       location: Dolgoprudny, Russia
       description:
         - "Comparison of Theoretical Models of Cells for Molecular Quantum Cellular Automata Based on Mixed Valence Molecules"
-        - 18-24 November
 
 - title: Poster presentations
   type: time_table
   contents:
     - title: European Conference on Molecular Spintronics
-      year: 2022
+      year: 5-8 April 2022
       location: Dortmund, Germany
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
-        - 5-8 April
     - title: Frontiers in Quantum Materials and Devices
-      year: 2022
+      year: 20-24 June 2022
       location: Valencia, Spain
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
-        - 20-24 June
 
 - title: Schools
   type: time_table
   contents:
     - title: 4th International Advanced School on Magnonics - MAGNETOFON
-      year: 2022
+      year: 18-22 July 2022
       location: Porto, Portugal
-      description:
-        - 18-22 July
     - title: Wannier 2022 Summer School
-      year: 2022
+      year: 16-20 May 2022
       location: Trieste, Italy
-      description:
-      - 16-20 May
 
 - title: Experience
   type: time_table
