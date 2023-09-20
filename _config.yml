@@ -210,6 +210,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - build-cv.py
+  - README.rst
 keep_files:
   - CNAME
   - .nojekyll
