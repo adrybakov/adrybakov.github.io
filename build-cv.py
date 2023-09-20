@@ -21,7 +21,7 @@ PREAMBLE=R"""\documentclass[a4paper,10pt]{article}
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
-    pdftitle={Overleaf Example},
+    pdftitle={Andrey Rybakov CV},
     pdfpagemode=FullScreen,
     }
 
