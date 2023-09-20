@@ -23,131 +23,124 @@
       value: 30th October 1997
     - name: Languages
       value: English, Russian
+
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Valencia, Valencia, Spain
+      institution: University of Valencia
+      department: ICMol
       year: 2021-now
-    - title: Master in Applied Mathematics and Physics
-      institution: Moscow Institute of Physics and Technology. Dolgoprudny, Russia
+      location: Valencia, Spain
+    - title: Master in Applied Mathematics and Physics (with Honors)
+      institution: Moscow Institute of Physics and Technology
       year: 2019-2021
+      location: Dolgoprudny, Russia
       description:
-        - with honors.
         - "Supervisor: Prof. Andrew Palii"
-    - title: BSc in Applied Mathematics and Physics
-      institution: Moscow Institute of Physics and Technology. Dolgoprudny, Russia
+    - title: BSc in Applied Mathematics and Physics (with Honors)
+      institution: Moscow Institute of Physics and Technology
       year: 2015-2019
+      location: Dolgoprudny, Russia
       description:
-        - with honors.
         - "Supervisor: Prof. Andrew Palii"
+
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://rad-tools.org">RAD-tools</a>
       year: 2022-now
-      description: Python package for spin Hamiltonian and magnons.
+      description: Python package for spin Hamiltonian and magnons
+      linkitems:
+        - link: https://rad-tools.org
+          linkname: Documenation
+        - link: https://github.com/adrybakov/rad-tools
+          linkname: Github
+        - link: https://pypi.org/project/rad-tools/
+          linkname: PyPI
+
+
 - title: Fellowships and Awards
   type: time_table
   contents:
     - title: GRISOLIA pre-doctoral fellowship
       year: 2021-present
+      location: Spain
       items: 
-        - Valencian Regional Government, Spain
+        - Valencian Regional Government
     - title: Scholarship named after N.N. Semenov
-    - year: 2019
+      year: 2019
+      location: Russia
       items: 
-        - Moscow Institute of Physics and Technology, Russia
+        - Moscow Institute of Physics and Technology
     - title: Excellence scholarship
-    - year: 2016
+      year: 2016
+      location: Russia
       items: 
-        -  Foundation for the development of innovative education in the field of natural sciences, Russia
+        - Foundation for the development of innovative education in the field of natural sciences
+
 - title: Oral presentations
   type: time_table
   contents:
     - title: MATSUS23 & Sustainable Technology Forum València (STECH23) 
       year: 2023
+      location: Valencia, Spain
       description:
         - "Modelling the dynamics of spin waves in 2D limit"
         - 6-10 March
-        - Valencia, Spain
     - title: 63 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
       year: 2020
+      location: Dolgoprudny, Russia
       description:
         - "Double Exchange Clusters as a New Class of Cells for Quantum Cellular Automata with Additional Functions"
         - 23-29 November
-        - Dolgoprudny, Russia
     - title: 62 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
       year: 2019
+      location: Dolgoprudny, Russia
       description:
         - "Comparison of Theoretical Models of Cells for Molecular Quantum Cellular Automata Based on Mixed Valence Molecules"
         - 18-24 November
-        - Dolgoprudny, Russia
+
 - title: Poster presentations
   type: time_table
   contents:
     - title: European Conference on Molecular Spintronics
       year: 2022
+      location: Dortmund, Germany
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
         - 5-8 April
-        - Dortmund, Germany
     - title: Frontiers in Quantum Materials and Devices
       year: 2022
+      location: Valencia, Spain
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
         - 20-24 June
-        - Valencia, Spain
+
 - title: Schools
   type: time_table
   contents:
     - title: 4th International Advanced School on Magnonics - MAGNETOFON
       year: 2022
+      location: Porto, Portugal
       description:
         - 18-22 July
-        - Porto, Portugal
     - title: Wannier 2022 Summer School
-      year:  2022
+      year: 2022
+      location: Trieste, Italy
       description:
       - 16-20 May
-        - Trieste, Italy
+
 - title: Experience
   type: time_table
   contents:
     - title: Pre-doctoral Fellow
-      institution: ICMol, University of Valencia
+      institution: University of Valencia
+      department: ICMol
       year: 2021-now
-      description:
-        - Valencia, Spain
+      location: Valencia, Spain
     - title: Research assistant
       institution: Institute of Problems of Chemical Physics
+      department: Laboratory of Molecular Magnetic Nanomaterials
       year: 2018-2021
-      description:
-        - Laboratory of Molecular Magnetic Nanomaterials. 
-        - Chernogolovka, Russia.
-- title: Example
-  type: time_table
-  contents:
-    - title: Example title
-      institution: Example institution
-      department: Example department
-      year: 2021-now
-      location: Test location
-      maindescription: Example main description
-      description:
-        - Description 1
-        - Description 2
-        - title: Description 3  title
-          contents:
-            - Description 3 subitem 1
-            - Description 3 subitem 2
-      items: 
-        - Items 1
-        - Items 2
-        - title: Items 3 title
-          contents:
-            - Items 3 subitem 1
-            - Items 3 subitem 2
-      linkitems:
-        - link: https://www.google.com
-          linkname: Google
+      location: Chernogolovka, Russia
