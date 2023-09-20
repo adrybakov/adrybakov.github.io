@@ -50,7 +50,8 @@
   contents:
     - title: RAD-tools
       year: 2022-now
-      description: Python package for spin Hamiltonian and magnons
+      description: 
+        - Python package for spin Hamiltonian and magnons
       linkitems:
         - link: https://rad-tools.org
           linkname: Documenation
@@ -82,7 +83,7 @@
 - title: Oral presentations
   type: time_table
   contents:
-    - title: MATSUS23 & Sustainable Technology Forum València (STECH23) 
+    - title: MATSUS23 and Sustainable Technology Forum València (STECH23) 
       year: 2023
       dates: 6-10 March
       location: Valencia, Spain
@@ -120,7 +121,7 @@
 - title: Schools
   type: time_table
   contents:
-    - title: 4th International Advanced School on Magnonics - MAGNETOFON
+    - title: 4th International Advanced School on Magnonics (MAGNETOFON)
       year: 2022
       dates: 18-22 July
       location: Porto, Portugal
