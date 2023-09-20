@@ -4,9 +4,9 @@
     - name: Full Name
       value: Andrey Rybakov
     - name: e-mail
-      - links: anry@uv.es
-        name: anry@uv.es
-        link: mailto:anry@uv.es
+      links: 
+        - name: anry@uv.es
+          link: mailto:anry@uv.es
     - name: ORCID
       value: 0000-0002-9924-3576
     - name: Scopus Author ID
