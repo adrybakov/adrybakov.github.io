@@ -69,19 +69,19 @@
       year: 2023
       description:
         - "Modelling the dynamics of spin waves in 2D limit"
-        - 6 - 10 March
+        - 6-10 March
         - Valencia, Spain
     - title: 63 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
       year: 2020
       description:
         - "Double Exchange Clusters as a New Class of Cells for Quantum Cellular Automata with Additional Functions"
-        - 23 - 29 November
+        - 23-29 November
         - Dolgoprudny, Russia
     - title: 62 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
       year: 2019
       description:
         - "Comparison of Theoretical Models of Cells for Molecular Quantum Cellular Automata Based on Mixed Valence Molecules"
-        - 18 - 24 November
+        - 18-24 November
         - Dolgoprudny, Russia
 - title: Poster presentations
   type: time_table
@@ -90,13 +90,13 @@
       year: 2022
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
-        - 5 - 8 April
+        - 5-8 April
         - Dortmund, Germany
     - title: Frontiers in Quantum Materials and Devices
       year: 2022
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
-        - 20 - 24 June
+        - 20-24 June
         - Valencia, Spain
 - title: Schools
   type: time_table
@@ -104,12 +104,12 @@
     - title: 4th International Advanced School on Magnonics - MAGNETOFON
       year: 2022
       description:
-        - 18 - 22 July
+        - 18-22 July
         - Porto, Portugal
     - title: Wannier 2022 Summer School
       year:  2022
       description:
-      - 16 - 20 May
+      - 16-20 May
         - Trieste, Italy
 - title: Experience
   type: time_table
@@ -125,3 +125,29 @@
       description:
         - Laboratory of Molecular Magnetic Nanomaterials. 
         - Chernogolovka, Russia.
+- title: Example
+  type: time_table
+  contents:
+    - title: Example title
+      institution: Example institution
+      department: Example department
+      year: 2021-now
+      location: Test location
+      maindescription: Example main description
+      description:
+        - Description 1
+        - Description 2
+        - title: Description 3  title
+          contents:
+            - Description 3 subitem 1
+            - Description 3 subitem 2
+      items: 
+        - Items 1
+        - Items 2
+        - title: Items 3 title
+          contents:
+            - Items 3 subitem 1
+            - Items 3 subitem 2
+      linkitems:
+        - link: https://www.google.com
+          linkname: Google
