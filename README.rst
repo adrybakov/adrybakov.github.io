@@ -4,8 +4,8 @@ Personal card
 
 This repository hosts the web page `adrybakov.com <https://adrybakov.com>`_.
 
-It is powered by `Jekyll <https://jekyllrb.com/>`_ with `
-al-folio <https://github.com/alshedivat/al-folio>`_ theme.
+It is powered by `Jekyll <https://jekyllrb.com/>`_ with 
+`al-folio <https://github.com/alshedivat/al-folio>`_ theme.
 
 License
 =======
@@ -28,5 +28,5 @@ The license is available in the LICENSE file.
 Exceptions
 ----------
 pdf files of the publications and/or supporting information located in ``/assets/pdf/`` and 
-displayed at the `adrybakov.com/publications/`_ are subjected to the licenses as 
+displayed at the `<adrybakov.com/publications/>`_ are subjected to the licenses as 
 specified by the corresponding publishers.
