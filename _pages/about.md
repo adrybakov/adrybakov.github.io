@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p>anry@uv.es</p>
     <p>Office 3.2.3</p>
     <p>Instituto de Ciencia Molecular</p>
     <p>Catedrático José Beltrán Martínez nº 2</p>
