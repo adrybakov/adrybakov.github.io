@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Pre-doctoral Fellow at ICMol, University of Valencia.
 
 profile:
   align: right

@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 4
 cv_pdf: Andrey-Rybakov-CV.pdf
-description: Web-version of my CV. Please download the pdf file for the extended version.
+description: For the pdf version click on the icon to the right.
 toc:
   sidebar: left
 ---
