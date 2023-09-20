@@ -66,34 +66,37 @@
     - title: GRISOLIA pre-doctoral fellowship
       year: 2021-now
       location: Spain
-      items: 
+      description: 
         - Valencian Regional Government
     - title: Scholarship named after N.N. Semenov
       year: 2019
       location: Russia
-      items: 
+      description: 
         - Moscow Institute of Physics and Technology
     - title: Excellence scholarship
       year: 2016
       location: Russia
-      items: 
+      description: 
         - Foundation for the development of innovative education in the field of natural sciences
 
 - title: Oral presentations
   type: time_table
   contents:
     - title: MATSUS23 & Sustainable Technology Forum València (STECH23) 
-      year: 6-10 March 2023
+      year: 2023
+      dates: 6-10 March
       location: Valencia, Spain
       description:
         - "Modelling the dynamics of spin waves in 2D limit"
     - title: 63 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
-      year: 23-29 November 2020
+      year: 2020
+      dates: 23-29 November
       location: Dolgoprudny, Russia
       description:
         - "Double Exchange Clusters as a New Class of Cells for Quantum Cellular Automata with Additional Functions"
     - title: 62 All-Russian Scientific Conference in Moscow Institute of Physics and Technology
-      year: 18-24 November 2019
+      year: 2019
+      dates: 18-24 November
       location: Dolgoprudny, Russia
       description:
         - "Comparison of Theoretical Models of Cells for Molecular Quantum Cellular Automata Based on Mixed Valence Molecules"
@@ -102,12 +105,14 @@
   type: time_table
   contents:
     - title: European Conference on Molecular Spintronics
-      year: 5-8 April 2022
+      year: 2022
+      dates: 5-8 April
       location: Dortmund, Germany
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
     - title: Frontiers in Quantum Materials and Devices
-      year: 20-24 June 2022
+      year: 2022
+      dates: 20-24 June
       location: Valencia, Spain
       description:
         - "Magnon straintronics in the 2D van der Waals ferromagnet CrSBr"
@@ -116,10 +121,12 @@
   type: time_table
   contents:
     - title: 4th International Advanced School on Magnonics - MAGNETOFON
-      year: 18-22 July 2022
+      year: 2022
+      dates: 18-22 July
       location: Porto, Portugal
     - title: Wannier 2022 Summer School
-      year: 16-20 May 2022
+      year: 2022
+      dates: 16-20 May
       location: Trieste, Italy
 
 - title: Experience
