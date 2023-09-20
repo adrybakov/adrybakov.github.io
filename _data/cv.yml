@@ -8,11 +8,17 @@
         - name: anry@uv.es
           link: mailto:anry@uv.es
     - name: ORCID
-      value: 0000-0002-9924-3576
+      links:
+        - name: 0000-0002-9924-3576
+          link: https://orcid.org/0000-0002-9924-3576 
     - name: Scopus Author ID
-      value: 57210452927
+      links: 
+        - name: 57210452927
+          link: https://www.scopus.com/authid/detail.uri?authorId=57210452927
     - name: ResearcherID
-      value: W-6960-2019
+      links: 
+        - name: W-6960-2019
+          link: https://www.webofscience.com/wos/author/record/1701263
     - name: Date of Birth
       value: 30th October 1997
     - name: Languages
