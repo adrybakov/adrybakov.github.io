@@ -29,5 +29,5 @@ material and device for fast and efficient computing.
 
 Current research is devoted to the ultrafast magnon dynamics and its application for wave-based logic.
 
-Author and core developer of the [RAD-tools](rad-tools.org) package for the magnonics simulations 
+Author and core developer of the [RAD-tools](https://rad-tools.org) package for the magnonics simulations 
 and spin Hamiltonian treatment.
