@@ -129,6 +129,10 @@
       year: 2022
       dates: 16-20 May
       location: Trieste, Italy
+    - title: "First steps with SIESTA: from zero to hero"
+      year: 2023
+      dates: 2-6 October 
+      location: Online
 
 - title: Experience
   type: time_table
