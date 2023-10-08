@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: Curriculum vitae
 nav: true
 nav_order: 4
 cv_pdf: Andrey-Rybakov-CV.pdf
