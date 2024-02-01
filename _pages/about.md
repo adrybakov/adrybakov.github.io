@@ -22,12 +22,8 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Graduated with honours from Moscow Institute of Physics and Technology (MIPT) in 2019. 
-Received a master degree in Applied Physics and Math from MIPT in 2021. 
+Received a master degree in Applied Physics and Math from MIPT in 2021. Bachelor and master thesis were devoted to the design of the quantum cellular automata based on the clusters of mixed valence under the supervision of Andrew Palii.
 
-Main research interests are focused on the magnetic material design and search for novel concept, 
-material and device for fast and efficient computing. 
+My research interest is focus on the theoretical methods, that are necessary for better yet description of the experimental phenomena and design of novel materials and devices.
 
-Current research is devoted to the ultrafast magnon dynamics and its application for wave-based logic.
-
-Author and core developer of the [RAD-tools](https://rad-tools.org) package for the magnonics simulations 
-and spin Hamiltonian treatment.
+At the moment I am working on the two-dimensional magnetic van der Waals materials.
