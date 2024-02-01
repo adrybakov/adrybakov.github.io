@@ -24,6 +24,6 @@ social: false  # includes social icons at the bottom of the page
 Graduated with honours from Moscow Institute of Physics and Technology (MIPT) in 2019. 
 Received a master degree in Applied Physics and Math from MIPT in 2021. Bachelor and master thesis were devoted to the design of the quantum cellular automata based on the clusters of mixed valence under the supervision of Andrew Palii.
 
-My research interest is focus on the theoretical methods, that are necessary for better yet description of the experimental phenomena and design of novel materials and devices.
+My research interest is focused on the theoretical methods, that are necessary for better yet description of the experimental phenomena and design of novel materials and devices.
 
-At the moment I am working on the two-dimensional magnetic van der Waals materials.
+At the moment I am working on magnetic two-dimensional van der Waals materials.
