@@ -19,6 +19,9 @@
       links: 
         - name: W-6960-2019
           link: https://www.webofscience.com/wos/author/record/1701263
+    - name: Google Scholar
+      links:
+        - link: https://scholar.google.es/citations?user=6oM5F2wAAAAJ&hl=en&oi=ao
     - name: Date of Birth
       value: 30th October 1997
     - name: Languages
