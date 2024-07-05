@@ -54,13 +54,24 @@
     - title: RAD-tools
       year: 2022-now
       description: 
-        - Python package for spin Hamiltonian and magnons
+        - Sandbox (mainly condense matter plotting)
       linkitems:
         - link: https://rad-tools.org
           linkname: Documenation
         - link: https://github.com/adrybakov/rad-tools
           linkname: Github
         - link: https://pypi.org/project/rad-tools/
+          linkname: PyPI
+    - title: Wulfric
+      year: 2023-now
+      description: 
+        - Crystal, Lattice, Atoms, K-path.
+      linkitems:
+        - link: https://docs.wulfric.org/en/latest/
+          linkname: Documenation
+        - link: https://github.com/adrybakov/wulfric
+          linkname: Github
+        - link: https://pypi.org/project/wulfric
           linkname: PyPI
 
 
@@ -86,6 +97,12 @@
 - title: Oral presentations
   type: time_table
   contents:
+    - title: 17th European School on Molecular Nanoscience (ESMolNa2024)
+      year: 2024
+      dates: 19-24 May
+      location: Cuenca, Spain
+      description:
+        - "Twisted magnetic multilayers of CrSBr"
     - title: MATSUS23 and Sustainable Technology Forum València (STECH23) 
       year: 2023
       dates: 6-10 March
@@ -104,6 +121,7 @@
       location: Dolgoprudny, Russia
       description:
         - "Comparison of Theoretical Models of Cells for Molecular Quantum Cellular Automata Based on Mixed Valence Molecules"
+
 
 - title: Poster presentations
   type: time_table
@@ -140,6 +158,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research stay
+      institution: University of Oviedo
+      department: Department of Physics
+      year: December 2023-January 2024
+      location: Oviedo, Spain
     - title: Pre-doctoral Fellow
       institution: University of Valencia
       department: ICMol
