@@ -21,6 +21,7 @@
           link: https://www.webofscience.com/wos/author/record/1701263
     - name: Google Scholar
       links:
+        - name: link
         - link: https://scholar.google.es/citations?user=6oM5F2wAAAAJ&hl=en&oi=ao
     - name: Date of Birth
       value: 30th October 1997

@@ -1,12 +1,13 @@
 import os
 from argparse import ArgumentParser
 from yaml import load
+
 try:
     from yaml import CLoader as Loader
 except ImportError:
     from yaml import Loader
 
-PREAMBLE=R"""\documentclass[a4paper,10pt]{article}
+PREAMBLE = R"""\documentclass[a4paper,10pt]{article}
 
 \usepackage[top=0.75in, bottom=0.2in, left=0.35in, right=0.35in]{geometry}
 \usepackage{graphicx}
@@ -60,7 +61,8 @@ PREAMBLE=R"""\documentclass[a4paper,10pt]{article}
 \end{center}
 """
 
-FILENAME="Andrey-Rybakov-CV"
+FILENAME = "Andrey-Rybakov-CV"
+
 
 def write_type_map(contents):
     result = []
@@ -70,19 +72,20 @@ def write_type_map(contents):
             value = content["links"][0]["name"]
         else:
             value = content["value"]
-        result.append(f"{name}"+R": \textbf{"+f"{value}"+R"}\\"+"\n")
+        result.append(f"{name}" + R": \textbf{" + f"{value}" + R"}\\" + "\n")
     return result
+
 
 def write_type_time_table(contents):
     result = []
-    result.append(R"\begin{tblr}{t{0.15\textwidth}t{0.75\textwidth}}"+"\n")
+    result.append(R"\begin{tblr}{t{0.15\textwidth}t{0.75\textwidth}}" + "\n")
     for content in contents:
         if "year" in content:
             if "dates" in content:
                 result.append(f"{content['dates']} ")
             result.append(f"{content['year']} & ")
         if "title" in content:
-            result.append(R"\textbf{"+f"{content['title']}"+"}.\n")
+            result.append(R"\textbf{" + f"{content['title']}" + "}.\n")
         if "department" in content:
             result.append(f"{content['department']},\n")
         if "institution" in content:
@@ -92,9 +95,10 @@ def write_type_time_table(contents):
                 result.append(f"{item}.\n")
         if "location" in content:
             result.append(f"{content['location']}.\n")
-        result.append(R"\\"+"\n")
+        result.append(R"\\" + "\n")
     result.append(R"\end{tblr}")
     return result
+
 
 def generate_input(root_dir):
     latex_input = []
@@ -102,19 +106,31 @@ def generate_input(root_dir):
     cv_data = load(open(os.path.join(root_dir, "_data", "cv.yml")), Loader=Loader)
 
     for section in cv_data:
-        latex_input.append(R"\noindent \resheading{\textbf{"+f"{section['title'].upper()}"+R"}}\nopagebreak\\[0.2cm]"+"\n")
+        latex_input.append(
+            R"\noindent \resheading{\textbf{"
+            + f"{section['title'].upper()}"
+            + R"}}\nopagebreak\\[0.2cm]"
+            + "\n"
+        )
 
         if section["type"] == "map":
             latex_input.extend(write_type_map(section["contents"]))
         elif section["type"] == "time_table":
             latex_input.extend(write_type_time_table(section["contents"]))
 
-        latex_input.append(R"\hfill\\[0.2cm]"+"\n")
+        latex_input.append(R"\hfill\\[0.2cm]" + "\n")
 
     return latex_input
 
+
 def generate_bibliography(root_dir):
-    latex_input = ["\n"+R"\noindent \resheading{\textbf{PUBLICATIONS}}\\[0.2cm]"+"\n"+R"\begin{itemize}"+"\n"]
+    latex_input = [
+        "\n"
+        + R"\noindent \resheading{\textbf{PUBLICATIONS}}\\[0.2cm]"
+        + "\n"
+        + R"\begin{itemize}"
+        + "\n"
+    ]
 
     bib_data = []
     with open(os.path.join(root_dir, "_bibliography", "papers.bib"), "r") as f:
@@ -132,43 +148,57 @@ def generate_bibliography(root_dir):
             i += 1
 
     bib_data.sort(key=lambda x: int(x["year"]), reverse=True)
-    
+
     for paper in bib_data:
         latex_input.append(R"\item ")
         if "author" in paper:
-            authors = paper['author'].split(" and ")
-            family_names = [x.split(',')[0].strip() for x in authors]
-            first_names = [x.split(',')[1].strip() for x in authors]
-            first_names = [". ".join([name[0] for name in names.split()]) for names in first_names]
-            authors = [f"{family_names[i]} {first_names[i]}." for i in range(len(family_names))]
-            latex_input.append(", ".join(authors)+"\n")
+            authors = paper["author"].split(" and ")
+            family_names = [x.split(",")[0].strip() for x in authors]
+            first_names = [x.split(",")[1].strip() for x in authors]
+            first_names = [
+                ". ".join([name[0] for name in names.split()]) for names in first_names
+            ]
+            authors = [
+                f"{family_names[i]} {first_names[i]}." for i in range(len(family_names))
+            ]
+            latex_input.append(", ".join(authors) + "\n")
         if "title" in paper:
-            latex_input.append(R"\textit{"+f"{paper['title']}"+"}\n")
+            latex_input.append(R"\textit{" + f"{paper['title']}" + "}\n")
         if "journal" in paper and "year" in paper:
-            latex_input.append(R"\textbf{"+f"{paper['journal']}, {paper['year']}."+"}\n")
+            latex_input.append(
+                R"\textbf{" + f"{paper['journal']}, {paper['year']}." + "}\n"
+            )
         elif "journal" in paper:
-            latex_input.append(R"\textbf{"+f"{paper['journal']}."+"}\n")
+            latex_input.append(R"\textbf{" + f"{paper['journal']}." + "}\n")
         elif "year" in paper:
-            latex_input.append(R"\textbf{"+f"{paper['year']}."+"}\n")
+            latex_input.append(R"\textbf{" + f"{paper['year']}." + "}\n")
         next_entry = []
         if "volume" in paper:
-            next_entry.append(paper['volume'])
+            next_entry.append(paper["volume"])
         if "number" in paper:
-            next_entry.append(paper['number'])
+            next_entry.append(paper["number"])
         if "pages" in paper:
-            next_entry.append(paper['pages'])
+            next_entry.append(paper["pages"])
         latex_input.append(", ".join(next_entry) + ".\n")
         if "doi" in paper:
-            latex_input.append("\n"+R"\href{https://doi.org/"+paper["doi"]+R"}{"+paper["doi"]+"}\n")
+            latex_input.append(
+                "\n"
+                + R"\href{https://doi.org/"
+                + paper["doi"]
+                + R"}{"
+                + paper["doi"]
+                + "}\n"
+            )
 
     latex_input.append(R"\end{itemize}\hfill\\[0.2cm]")
     return latex_input
+
 
 def main(root_dir):
     latex_input = [PREAMBLE]
     latex_input.extend(generate_input(root_dir))
     latex_input.extend(generate_bibliography(root_dir))
-    latex_input.append(R"\end{document}"+"\n")
+    latex_input.append(R"\end{document}" + "\n")
 
     # Write the input
     os.makedirs(os.path.join(root_dir, "latex-cv"), exist_ok=True)
@@ -176,12 +206,19 @@ def main(root_dir):
         f.writelines(latex_input)
 
     # Build the pdf
-    os.system(f"cd {os.path.join(root_dir, 'latex-cv')} && pdflatex {FILENAME}.tex -synctex=1 -interaction=nonstopmode")
-    os.system(f"cp {os.path.join(root_dir, 'latex-cv', f'{FILENAME}.pdf')} {os.path.join(root_dir, 'assets', 'pdf', f'{FILENAME}.pdf')}")
+    os.system(
+        f"cd {os.path.join(root_dir, 'latex-cv')} && pdflatex {FILENAME}.tex -synctex=1 -interaction=nonstopmode"
+    )
+    os.system(
+        f"cp {os.path.join(root_dir, 'latex-cv', f'{FILENAME}.pdf')} {os.path.join(root_dir, 'assets', 'pdf', f'{FILENAME}.pdf')}"
+    )
     os.system(f"rm -r {os.path.join(root_dir, 'latex-cv')}")
+
 
 if __name__ == "__main__":
     parser = ArgumentParser()
-    parser.add_argument("-rd","--root-dir", required=True, help="Root directory of the project")
+    parser.add_argument(
+        "-rd", "--root-dir", required=True, help="Root directory of the project"
+    )
     args = parser.parse_args()
     main(**vars(args))
