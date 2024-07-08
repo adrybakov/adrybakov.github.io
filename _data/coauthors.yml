@@ -1,6 +1,6 @@
 "Palii":
   - firstname: ["Andrei", "Andrew"]
-    url: https://scholar.google.com/citations?user=noxN9JgAAAAJ&hl=ru
+    url: https://scholar.google.com/citations?user=noxN9JgAAAAJ&hl=en
 
 "Tsukerblat":
   - firstname: ["Boris"]
@@ -12,7 +12,7 @@
 
 "Ruiz":
   - firstname: ["Alberto M"]
-    url: https://scholar.google.es/citations?user=3x7GfZUAAAAJ&hl=es
+    url: https://scholar.google.es/citations?user=3x7GfZUAAAAJ&hl=en
 
 "Zilberg":
   - firstname: ["Shmuel"]
@@ -20,4 +20,8 @@
 
 "Coronado":
   - firstname: ["Eugenio"]
-    url: https://scholar.google.es/citations?user=unSwvLIAAAAJ&hl=es
+    url: https://scholar.google.es/citations?user=unSwvLIAAAAJ&hl=en
+
+"Boix-Constant":
+  - firstname: ["Carla"]
+    url: https://scholar.google.com/citations?user=9ej2JitcWLgC&hl=en
