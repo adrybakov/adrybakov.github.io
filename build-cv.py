@@ -212,7 +212,7 @@ def main(root_dir):
     os.system(
         f"cp {os.path.join(root_dir, 'latex-cv', f'{FILENAME}.pdf')} {os.path.join(root_dir, 'assets', 'pdf', f'{FILENAME}.pdf')}"
     )
-    os.system(f"rm -r {os.path.join(root_dir, 'latex-cv')}")
+    # os.system(f"rm -r {os.path.join(root_dir, 'latex-cv')}")
 
 
 if __name__ == "__main__":

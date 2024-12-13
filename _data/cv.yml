@@ -51,6 +51,45 @@
       description:
         - "Supervisor: Prof. Andrew Palii"
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research stay
+      institution: University of Oviedo
+      department: Department of Physics
+      year: 12.2023-01.2024
+      location: Oviedo, Spain
+    - title: Pre-doctoral Fellow
+      institution: University of Valencia
+      department: ICMol
+      year: 2021-now
+      location: Valencia, Spain
+    - title: Research assistant
+      institution: Institute of Problems of Chemical Physics
+      department: Laboratory of Molecular Magnetic Nanomaterials
+      year: 2018-2021
+      location: Chernogolovka, Russia
+
+
+- title: Fellowships and Awards
+  type: time_table
+  contents:
+    - title: GRISOLIA pre-doctoral fellowship
+      year: 2021-now
+      location: Spain
+      description: 
+        - Valencian Regional Government
+    - title: Scholarship named after N.N. Semenov
+      year: 2019
+      location: Russia
+      description: 
+        - Moscow Institute of Physics and Technology
+    - title: Excellence scholarship
+      year: 2016
+      location: Russia
+      description: 
+        - Foundation for the development of innovative education in the field of natural sciences
+
 - title: Open Source Projects
   type: time_table
   contents:
@@ -76,26 +115,6 @@
           linkname: Github
         - link: https://pypi.org/project/wulfric
           linkname: PyPI
-
-
-- title: Fellowships and Awards
-  type: time_table
-  contents:
-    - title: GRISOLIA pre-doctoral fellowship
-      year: 2021-now
-      location: Spain
-      description: 
-        - Valencian Regional Government
-    - title: Scholarship named after N.N. Semenov
-      year: 2019
-      location: Russia
-      description: 
-        - Moscow Institute of Physics and Technology
-    - title: Excellence scholarship
-      year: 2016
-      location: Russia
-      description: 
-        - Foundation for the development of innovative education in the field of natural sciences
 
 - title: Oral presentations
   type: time_table
@@ -163,22 +182,3 @@
       year: 2023
       dates: 2-6 October 
       location: Online
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research stay
-      institution: University of Oviedo
-      department: Department of Physics
-      year: 12.2023-01.2024
-      location: Oviedo, Spain
-    - title: Pre-doctoral Fellow
-      institution: University of Valencia
-      department: ICMol
-      year: 2021-now
-      location: Valencia, Spain
-    - title: Research assistant
-      institution: Institute of Problems of Chemical Physics
-      department: Laboratory of Molecular Magnetic Nanomaterials
-      year: 2018-2021
-      location: Chernogolovka, Russia
