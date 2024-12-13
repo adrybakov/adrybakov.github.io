@@ -29,7 +29,7 @@ eliminated. It does not seem achievable from today, but it must be done. Otherwi
 will be always a threat of another war, of more suffering both to the people inside Russia
 and to its neighbors.
 
-Victory for Ukraine. Freedom for Russia.
+Justice for Ukraine. Freedom for Russia.
 
 
 ### In Russian:
@@ -51,4 +51,4 @@ Victory for Ukraine. Freedom for Russia.
 дня это кажется недостижимым, но это необходимо сделать. В противном случае всегда будет
 угроза новой войны, новых страданий, как для жителей России, так и для ее соседей.
 
-Победу Украине. Свободу России.
+Справедливость для Украине. Свободу для России.
