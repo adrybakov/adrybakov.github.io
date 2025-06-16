@@ -54,7 +54,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research stay
+    - title: Research visit
       institution: University of Oviedo
       department: Department of Physics
       year: 12.2023-01.2024
@@ -93,16 +93,16 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: RAD-tools
-      year: 2022-now
+    - title: magnopy
+      year: 2024-now
       description: 
-        - Sandbox (mainly condense matter plotting)
+        - Magnons with python
       linkitems:
-        - link: https://rad-tools.org
-          linkname: Documenation
-        - link: https://github.com/adrybakov/rad-tools
+        - link: https://magnopy.org
+          linkname: Documentation
+        - link: https://github.com/magnopy/magnopy
           linkname: Github
-        - link: https://pypi.org/project/rad-tools/
+        - link: https://pypi.org/project/magnopy/
           linkname: PyPI
     - title: Wulfric
       year: 2023-now
@@ -110,10 +110,21 @@
         - Crystal, Lattice, Atoms, K-path.
       linkitems:
         - link: https://docs.wulfric.org/en/latest/
-          linkname: Documenation
+          linkname: Documentation
         - link: https://github.com/adrybakov/wulfric
           linkname: Github
         - link: https://pypi.org/project/wulfric
+          linkname: PyPI
+    - title: RAD-tools
+      year: 2022-now
+      description: 
+        - Sandbox (mainly condense matter plotting)
+      linkitems:
+        - link: https://rad-tools.org
+          linkname: Documentation
+        - link: https://github.com/adrybakov/rad-tools
+          linkname: Github
+        - link: https://pypi.org/project/rad-tools/
           linkname: PyPI
 
 - title: Oral presentations
