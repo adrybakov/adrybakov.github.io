@@ -26,4 +26,4 @@ Received a master degree in Applied Physics and Math from MIPT in 2021. Bachelor
 
 My research interest is focused on the theoretical methods, that are necessary for better yet description of the experimental phenomena and design of novel materials and devices.
 
-At the moment I am working on magnetic two-dimensional van der Waals materials.
+I am working on the theory of the magnetic ground state and magnetic excitations.
