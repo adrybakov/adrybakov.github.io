@@ -93,7 +93,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: magnopy
+    - title: Magnopy
       year: 2024-now
       description: 
         - Magnons with python
