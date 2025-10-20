@@ -120,7 +120,7 @@
       description: 
         - Sandbox (mainly condense matter plotting)
       linkitems:
-        - link: https://rad-tools.org
+        - link: https://rad-tools.readthedocs.io/en/stable/
           linkname: Documentation
         - link: https://github.com/adrybakov/rad-tools
           linkname: Github
