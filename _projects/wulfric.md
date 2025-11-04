@@ -1,7 +1,7 @@
 ---
 layout: page
-title: WULFRIC
-description: Crystal, Lattice, Atom and Kpoints.
+title: Wulfric
+description: Cell, Atoms, K-path.
 img: assets/img/wulfric.png
 redirect: https://wulfric.org
 importance: 1
